@@ -159,7 +159,7 @@ Vector(
 # **Diagrama visual del algoritmo (Mermaid)**
 
 ```mermaid
- flowchart TD
+flowchart TD
     A[Inicio generarProgramacionesRiego] --> B[Obtener indices = 0..n-1]
     B --> C[Llamar aux(indices)]
     C --> D{v tiene 1 elemento?}
