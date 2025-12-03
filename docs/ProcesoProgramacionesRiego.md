@@ -171,7 +171,6 @@ flowchart TD
     J --> K[Retornar todas las permutaciones]
     K --> L[Fin]
 ```
----
 
 # **Pila de llamadas de ejecución (sequence diagram)**
 
