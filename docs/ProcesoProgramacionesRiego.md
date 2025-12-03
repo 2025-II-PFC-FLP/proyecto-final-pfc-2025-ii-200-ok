@@ -1,7 +1,5 @@
 # **Informe de Procesos -- Generación de Programaciones de Riego**
 
-Función (`generarProgramacionesRiego`)
-
 ## Función estudiada: `generarProgramacionesRiego`
 
 ```scala
