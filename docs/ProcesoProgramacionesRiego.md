@@ -159,17 +159,17 @@ Vector(
 
 ```mermaid
 flowchart TD
-    A[Inicio generarProgramacionesRiego] --> B[Obtener indices = 0..n-1]
-    B --> C[Llamar aux(indices)]
+    A["Inicio generarProgramacionesRiego"] --> B["Obtener indices = 0..n-1"]
+    B --> C["Llamar aux(indices)"]
     C --> D{v tiene 1 elemento?}
-    D -- Sí --> E[Retornar Vector(Vector(x))]
-    D -- No --> F[Para cada elem en v]
-    F --> G[resto = v - elem]
-    G --> H[Llamar aux(resto)]
-    H --> I[Anteponer elem a cada permutación]
-    I --> J[Unir resultados con flatMap]
-    J --> K[Retornar todas las permutaciones]
-    K --> L[Fin]
+    D -- Sí --> E["Retornar Vector(Vector(x))"]
+    D -- No --> F["Para cada elem en v"]
+    F --> G["resto = v - elem"]
+    G --> H["Llamar aux(resto)"]
+    H --> I["Anteponer elem a cada permutación"]
+    I --> J["Unir resultados con flatMap"]
+    J --> K["Retornar todas las permutaciones"]
+    K --> L["Fin"]
 ```
 
 ---
