@@ -172,6 +172,8 @@ flowchart TD
     K --> L[Fin]
 ```
 
+---
+
 # **Pila de llamadas de ejecución (sequence diagram)**
 
 ```mermaid
