@@ -153,7 +153,6 @@ Vector(
   Vector(2,1,0)
 )
 ```
-
 ---
 
 # **Diagrama visual del algoritmo (Mermaid)**
@@ -172,7 +171,6 @@ flowchart TD
     J --> K[Retornar todas las permutaciones]
     K --> L[Fin]
 ```
-
 ---
 
 # **Pila de llamadas de ejecución (sequence diagram)**
