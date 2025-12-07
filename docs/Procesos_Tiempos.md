@@ -78,9 +78,9 @@ Vector(5, 8, 0, 4)
 ## 📌 Diagrama visual del algoritmo (Mermaid)
 
 ```mermaid
-graph TD;
+graph TD
     A[Inicio tIR] --> B[Llamar aux(pi,0,[])]
-    B --> C{pi vacío?}
+    B --> C{¿pi vacío?}
     C -- No --> D[Tomar primero de pi]
     D --> E[Agregar (primero, tiempoActual) a acc]
     E --> F[Obtener tr del tablón]
