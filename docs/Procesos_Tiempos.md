@@ -79,15 +79,15 @@ Vector(5, 8, 0, 4)
 
 ```mermaid
 graph TD
-    A[Inicio tIR] --> B[Llamar aux(pi,0,[])]
-    B --> C{¿pi vacío?}
-    C -- No --> D[Tomar primero de pi]
-    D --> E[Agregar (primero, tiempoActual) a acc]
-    E --> F[Obtener tr del tablón]
+    A[Inicio tIR] --> B[Llamar aux(pi, 0, listaVacia)]
+    B --> C{pi esta vacio}
+    C -- No --> D[Tomar el primer elemento de pi]
+    D --> E[Agregar (primerElemento, tiempoActual) a acc]
+    E --> F[Obtener tr del tablon]
     F --> G[Actualizar tiempoActual = tiempoActual + tr]
     G --> B
-    C -- Sí --> H[Retornar acc ordenado por índice]
-    H --> I[Transformar a Vector solo de tiempos]
+    C -- Sí --> H[Retornar acc ordenado por indice]
+    H --> I[Convertir acc en un vector solo de tiempos]
     I --> J[Fin tIR]
 ```
 
