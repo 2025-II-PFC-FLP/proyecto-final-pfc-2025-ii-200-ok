@@ -2,6 +2,7 @@ package taller
 
 object ProgramacionesRiego {
 
+
   type Finca = Vector[(Int, Int, Int)]
   type ProgRiego = Vector[Int]
 
@@ -39,6 +40,10 @@ object ProgramacionesRiego {
     }
 
     aux(indices)
+
+  }
+
+  def programacionRiegoOptimo(f:Finca,d: Distancia): (ProgRiego,Int) = {
 
   }
 
