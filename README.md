@@ -1,18 +1,21 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/h71fa0_C)
-# Asignación: [Nombre de la asignación]
+# Asignación: Proyecto Final - Taller de Programación Funcional y Concurrente
 
-**Fecha:** [DD/MM/AAAA]
-**Curso:** [Nombre del Curso]
+**Fecha:** 08/12/2025
+
+**Curso:** Programacion funcional y concurrente 
 
 ---
 
 ## 👥 Integrantes del Grupo
 
-| Nombre Completo | Código | Rol            | Correo Electrónico        |
-| --------------- | ------ | -------------- | ------------------------- |
-| [Estudiante 1]  | 123456 | [Líder/Colab.] | [correo1@institucion.edu] |
-| [Estudiante 2]  | 123457 | [Colaborador]  | [correo2@institucion.edu] |
-| [Estudiante 3]  | 123458 | [Colaborador]  | [correo3@institucion.edu] |
+| Nombre Completo          | Código    | Rol            | Correo Electrónico |
+|--------------------------|-----------|----------------| ---------------- |
+| Simon David Tarazona Melo    | 202459421 | [Líder/Colab.] | simon.tarazona@correounivalle.edu.co |
+| Sebastian Devia	Acosta   | 202459664 | [Colaborador]  | devia.sebastian@correounivalle.edu.co |
+| Camilo Andres Riscanevo Cotrina | 202459753 | [Colaborador]  | camilo.riscanevo@correounivalle.edu.co |
+| Karen Andrea Sanabria Gonzalez   | 202459413 | [Colaborador]  | karen.sanabria@correounivalle.edu.co |
+| Angel Nicolas Castañeda Valencia | 202459426 | [Colaborador]  | castaneda.angel@correounivalle.edu.co |
 
 ---
 
