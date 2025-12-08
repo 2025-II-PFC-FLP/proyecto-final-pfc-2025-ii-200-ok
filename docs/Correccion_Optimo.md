@@ -9,13 +9,7 @@
 
 ### **Fórmulas de costo:**
 **Costo de riego por tablón:**
-$$
-CR_F^π[i] =
-\begin{cases}
-ts_i - (t_i^π + tr_i), & \text{si } ts_i - tr_i \ge t_i^π \\
-p_i \cdot ((t_i^π + tr_i) - ts_i), & \text{en otro caso}
-\end{cases}
-$$
+$$CR_F^π[i] = \begin{cases} ts_i - (t_i^π + tr_i), & \text{si } ts_i - tr_i \ge t_i^π \\ p_i \cdot ((t_i^π + tr_i) - ts_i), & \text{en otro caso} \end{cases}$$
 
 **Costo total de riego:**
 $$CR_F^π = \sum_{i=0}^{n-1} CR_F^π[i]$$
