@@ -1,4 +1,4 @@
-# Informe de Corrección del Codigo Entrada
+# Informe de Corrección - Generacion de Entradas
 
 ---
 
