@@ -9,38 +9,26 @@
 
 ### **Fórmulas de costo:**
 **Costo de riego por tablón:**
-$$
-CR_F^π[i] =
+$$CR_F^π[i] =
 \begin{cases}
 ts_i - (t_i^π + tr_i), & \text{si } ts_i - tr_i \ge t_i^π \\
 p_i \cdot ((t_i^π + tr_i) - ts_i), & \text{en otro caso}
-\end{cases}
-$$ 
+\end{cases}$$ 
 
 **Costo total de riego:**
-$$
-CR_F^π = \sum_{i=0}^{n-1} CR_F^π[i]
-$$
+$$CR_F^π = \sum_{i=0}^{n-1} CR_F^π[i]$$
 
 **Costo de movilidad:**
-$$
-CM_F^π = \sum_{j=0}^{n-2} D_F[π_j, π_{j+1}]
-$$
+$$CM_F^π = \sum_{j=0}^{n-2} D_F[π_j, π_{j+1}]$$
 
 **Costo total:**
-$$
-C(π) = CR_F^π + CM_F^π
-$$
+$$C(π) = CR_F^π + CM_F^π$$
 
 ## **2. Problema de Optimización**
 
 Encontrar:
-$$
-π_{opt} = \arg\min_{π \in Π} C(π)
-$$
-$$
-c_{opt} = \min_{π \in Π} C(π)
-$$
+$$π_{opt} = \arg\min_{π \in Π} C(π)$$
+$$c_{opt} = \min_{π \in Π} C(π)$$
 
 ## **3. Corrección del Algoritmo**
 
@@ -49,9 +37,7 @@ $$
 Sea `P = pendientes`, `M = procesadas = Π - P`.
 
 **Invariante I(P, π_m, c_m):**
-$$
-c_m = \min\{C(π) \mid π \in M\} \quad \land \quad π_m \in \arg\min\{C(π) \mid π \in M\}
-$$
+$$c_m = \min\{C(π) \mid π \in M\} \quad \land \quad π_m \in \arg\min\{C(π) \mid π \in M\}$$
 
 ### **3.2. Demostración por Inducción**
 
@@ -126,14 +112,10 @@ Si el algoritmo termina, el resultado es correcto.
 El algoritmo siempre termina y es correcto.
 
 ### **P3: Optimalidad garantizada**
-$$
-\forall \pi \in \Pi: C(\pi_{opt}) \leq C(\pi)
-$$
+$$\forall \pi \in \Pi: C(\pi_{opt}) \leq C(\pi)$$
 
 ### **P4: Completitud**
-$$
-\{\pi \mid \pi \text{ evaluado}\} = \Pi
-$$
+$$\{\pi \mid \pi \text{ evaluado}\} = \Pi$$
 
 ### **P5: Consistencia de tipos**
 - Entrada: `Finca × Distancia`
@@ -143,18 +125,14 @@ $$
 ## **6. Análisis de Complejidad**
 
 ### **Temporal:**
-$$
-T(n) = O(n! \cdot n^2)
-$$
+$$T(n) = O(n! \cdot n^2)$$
 - `n!` permutaciones
 - `O(n)` para `tIR`
 - `O(n)` para `CR`
 - `O(n)` para `CM`
 
 ### **Espacial:**
-$$
-S(n) = O(n! \cdot n)
-$$
+$$S(n) = O(n! \cdot n)$$
 - Almacena todas las permutaciones
 - Cada permutación ocupa `O(n)`
 
