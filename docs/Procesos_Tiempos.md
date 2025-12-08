@@ -78,18 +78,20 @@ Vector(5, 8, 0, 4)
 ## 📌 Diagrama visual del algoritmo (Mermaid)
 
 ```mermaid
-graph TD;
-    A[Inicio tIR] --> B[Llamar aux(pi,0,[])]
-    B --> C{pi vacío?}
-    C -- No --> D[Tomar primero de pi]
-    D --> E[Agregar (primero, tiempoActual) a acc]
-    E --> F[Obtener tr del tablón]
-    F --> G[Actualizar tiempoActual = tiempoActual + tr]
+graph TD
+    A[Inicio tIR] --> B[Llamar aux con pi tiempo cero y lista vacia]
+    B --> C{Pi esta vacio}
+    C -- No --> D[Tomar primer elemento de pi]
+    D --> E[Agregar elemento y tiempoActual a acc]
+    E --> F[Obtener tr del tablon]
+    F --> G[Sumar tr a tiempoActual]
     G --> B
-    C -- Sí --> H[Retornar acc ordenado por índice]
-    H --> I[Transformar a Vector solo de tiempos]
+    C -- Si --> H[Ordenar acc por indice]
+    H --> I[Convertir acc en vector de tiempos]
     I --> J[Fin tIR]
 ```
+
+
 
 ---
 

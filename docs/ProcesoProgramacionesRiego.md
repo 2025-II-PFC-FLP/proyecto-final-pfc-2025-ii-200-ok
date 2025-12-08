@@ -88,13 +88,13 @@ Esta llamada generará 3 *sub-llamadas*, una por cada elemento tomado como prime
 
 ## **Rama 1: el primer elemento es 0**
 
-|        Llamada |     v     | Acción                   | Resultado parcial |
-|---------------:|:---------:|:-------------------------|:------------------|
-| `aux([0,1,2])` | → elige 0 | resto = [1,2]            |                   |
-|   `aux([1,2])` | → elige 1 | resto = [2]              |                   |
-|     `aux([2])` | caso base | devuelve [[2]]           |                   |
-|     ensamblado |           | `[1 +: [2]] = [1,2]`     |                   |
-|     ensamblado |           | `[0 +: [1,2]] = [0,1,2]` |                   |
+|        Llamada |     v     | Acción         | Resultado parcial       |
+|---------------:|:---------:|:---------------|:------------------------|
+| `aux([0,1,2])` | → elige 0 | resto = [1,2]  | → (esperando resultado) |
+|   `aux([1,2])` | → elige 1 | resto = [2]    | → (esperando resultado) |
+|     `aux([2])` | caso base | devuelve [[2]] | `[2]`                   |
+|     ensamblado |           | `[1 +: [2]]`   | `[1,2]`                 |
+|     ensamblado |           | `[0 +: [1,2]]` | `[0,1,2]`               |
 
 Luego:
 
