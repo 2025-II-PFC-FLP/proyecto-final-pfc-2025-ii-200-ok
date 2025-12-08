@@ -3,9 +3,9 @@ package taller
 object Costos {
 
   type Finca = Vector[(Int, Int, Int)]       // (ts, tr, p)
-  type ProgRiego = Vector[Int]               // orden de riego (permutación)
+  type ProgRiego = Vector[Int]               // orden de riego
   type Distancia = Vector[Vector[Int]]       // matriz de distancias (simétrica)
-  type TiempoInicioRiego = Vector[Int]
+  type TiempoInicioRiego = Vector[Int]      // vector de tiempos
 
   import Tiempos.tIR
 
