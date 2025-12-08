@@ -11,11 +11,11 @@
 
 | Nombre Completo          | Código    | Rol            | Correo Electrónico |
 |--------------------------|-----------|----------------| ---------------- |
-| Simon David Tarazona     | 202459421 | [Líder/Colab.] | [simon.tarazona@correounivalle.edu.co |
-| Sebastian devia	         | 202459664 | [Colaborador]  | devia.sebastian@correounivalle.edu.co |
-| camilo Riscanevo Cotrina	 | 202459753 | [Colaborador]  | camilo.riscanevo@correounivalle.edu.co |
-| Karen Andrea Sanabria    | 123456    | [Colaborador]  | karen.sanabria@correounivalle.edu.co |
-| angel Nicolas Castañeda  | 202459664 | [Colaborador]  | castaneda.angel@correounivalle.edu.co |
+| Simon David Tarazona     | 202459421 | [Líder/Colab.] | simon.tarazona@correounivalle.edu.co |
+| Sebastian Devia	Acosta   | 202459664 | [Colaborador]  | devia.sebastian@correounivalle.edu.co |
+| Camilo Riscanevo Cotrina | 202459753 | [Colaborador]  | camilo.riscanevo@correounivalle.edu.co |
+| Karen Andrea Sanabria    | 202459413 | [Colaborador]  | karen.sanabria@correounivalle.edu.co |
+| Angel Nicolas Castañeda  | 202459426 | [Colaborador]  | castaneda.angel@correounivalle.edu.co |
 
 
 ---
